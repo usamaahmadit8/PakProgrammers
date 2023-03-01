@@ -125,8 +125,6 @@ class homeController extends Controller
         return $course_outline;
     }
 
-
-
     public function cousedetail()
     {
         $coursedetail = CoursesDetail::all();
